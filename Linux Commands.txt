@@ -1,0 +1,146 @@
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands
+$ pwd
+/d/DEVELOPMENT/Git/Linux Commands
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands
+$ mkdir new_folder
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands
+$ ls
+'Linux Commands.txt'   files.txt   new_folder/   newfile.txt
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands
+$ cd new_folder
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ touch new_file.txt
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ cp new_file.txt ~/new_folder
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ mv new_file.txt ~/new_folder
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ which python.exe
+/c/Users/adity/AppData/Local/Programs/Python/Python312/python.exe
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ echo Hi
+Hi
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ echo Hi > newfile.txt
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ cat newfile.txt
+Hi
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ cat -n newfile.txt
+     1  Hi
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ cat newfile.txt > ~/newfolder
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ cat newfile.txt > newfile_2.txt
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ cat newfile.txt > ~/new_folder newfile.txt
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ tac newfile.txt
+Hi
+
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ history | grep which
+   28  which file.txt
+   29  which Hell
+   30  which Hello
+   45  which
+   46  which Employee.csv
+   47  which newfile.txt
+   48  which demo.zip
+   49  which python.exe
+   68  history | grep which
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ history
+    1  git remote add origin https://github.com/aditya-kasera/nodejs-first-app.git
+    2  git remote
+    3  git push origin master
+    4  exit
+    5  git -version
+    6  git version
+    7  ls
+    8  bash Hello.sh
+    9  bash Hello.sh
+   10  bash Hello.sh
+   11  ls
+   12  ls
+   13  bash Hello.sh
+   14  bash Hello.sh
+   15  pwd
+   16  cd Hi
+   17  whoami
+   18  ls -l
+   19  cd ..
+   20  rmdir Hi
+   21  ls
+   22  touch newfile.txt
+   23  ls
+   24  rm newfile.txt
+   25  ls
+   26  touch file.txt
+   27  cp file.txt newfile.txt
+   28  which file.txt
+   29  which Hell
+   30  which Hello
+   31  echo "Hix"
+   32  ls
+   33  mkdir folder
+   34  mv file.txt files.txt
+   35  ls
+   36  echo "Hix"
+   37  echo "Hix"
+   38  pwd
+   39  mkdir new_folder
+   40  ls
+   41  cd new_folder
+   42  touch new_file.txt
+   43  cp new_file.txt ~/new_folder
+   44  mv new_file.txt ~/new_folder
+   45  which
+   46  which Employee.csv
+   47  which newfile.txt
+   48  which demo.zip
+   49  which python.exe
+   50  echo Hi
+   51  echo Hi > newfile.txt
+   52  cat newfile.txt
+   53  cat -n newfile.txt
+   54  cat newfile.txt > ~/newfolder/newfile.txt
+   55  cat newfile.txt > ~/newfolder
+   56  cat newfile.txt > newfile_2.txt
+   57  cat newfile.txt > ~/new_foldernew/file_2.txt
+   58  cat newfile.txt > ~/new_folder
+   59  cat newfile.txt > ~/new_folder/file_2.txt
+   60  cat newfile.txt > ~/new_folder/newfile.txt
+   61  cat newfile.txt > ~/new_folder newfile.txt
+   62  tac newfile.txt
+   63  more newfile.txt
+   64  more newfile.txt
+   65  alias custom_command="cd new_folder"
+   66  locate python.exe
+   67  grep newfile.txt
+   68  history | grep which
+   69  history
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ diff newfile.txt newfile.txt
+
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands/new_folder
+$ clear
+
