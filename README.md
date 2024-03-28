@@ -1,6 +1,6 @@
 > This repository has Linux and git commands I practised and would refer in future.
 
-[Click](https://github.com/aditya-kasera/git_and_linux_commands/blob/main/Notes%20-%20LInux%20%26%20Git.one) for notes.
+[Click](https://github.com/aditya-kasera/git_and_linux_commands/blob/main/Notes%20-%20LInux%20%26%20Git.one) and download Linux and Git Commmands' Onenote notes.
 
 ---
 
