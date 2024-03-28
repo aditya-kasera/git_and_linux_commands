@@ -1,0 +1,81 @@
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (master)
+$ git init
+Reinitialized existing Git repository in D:/DEVELOPMENT/Git/Linux Commands/.git/
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Linux Commands.txt
+        new file:   files.txt
+        new file:   new_folder/newfile.txt
+        new file:   new_folder/newfile_2.txt
+        new file:   newfile.txt
+
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (master)
+$ git add .
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Linux Commands.txt
+        new file:   files.txt
+        new file:   new_folder/newfile.txt
+        new file:   new_folder/newfile_2.txt
+        new file:   newfile.txt
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (master)
+$ git commit -m "initial commit"
+[master (root-commit) cc15384] initial commit
+ 5 files changed, 148 insertions(+)
+ create mode 100644 Linux Commands.txt
+ create mode 100644 files.txt
+ create mode 100644 new_folder/newfile.txt
+ create mode 100644 new_folder/newfile_2.txt
+ create mode 100644 newfile.txt
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (master)
+$ git remote
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (master)
+$ git branch -m main
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (main)
+$ git remote add origin https://github.com/aditya-kasera/git_and_linux_commands.git
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (main)
+$ git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.16 KiB | 1.16 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aditya-kasera/git_and_linux_commands.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (main)
+$ git remote
+origin
+
+aditya@Laptop MINGW64 /d/DEVELOPMENT/Git/Linux Commands (main)
+$
